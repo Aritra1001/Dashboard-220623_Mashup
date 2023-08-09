@@ -1,0 +1,230 @@
+/* Mashup css */
+.chart{
+  height: 79px;
+  width: 138px;
+}
+
+#chart4{
+  width: 100px;
+}
+
+#chart5{
+  width: 100px;
+}
+
+#chart6{
+  height: 251px;
+}
+
+#chart7{
+  height: 244px;
+}
+
+#chart8{
+  height: 165px;
+}
+/* ******end of mashup css****** */
+
+.common-properties {
+  border-radius: 0.7rem;
+  background: white;
+  padding: 0.5rem 0.5rem;
+}
+
+.a-welcome h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
+  height: 2rem;
+  margin-bottom: 0;
+  font-weight: 800;
+}
+
+.a-welcome span {
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.container {
+  margin-left: -1rem;
+}
+
+.insights {
+  height: 8rem;
+  width: 100%;
+  padding: 0.5rem;
+}
+
+.insights-content {
+  margin: 0.2rem 0.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.insights-content .left-content h2 {
+  height: 2.6rem;
+}
+
+.left-content span {
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+.left-content .percent {
+  background: lightseagreen;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 3.5rem;
+  padding: 0.2rem;
+  margin: 0 auto;
+  background: #adf3de;
+  color: darkgreen;
+  border-radius: 0.3rem;
+  filter: contrast(1.2);
+}
+
+.left-content .percent {
+  font-size: 13px;
+}
+
+.left-content .percent i {
+  transform: rotate(40deg);
+}
+
+.left-content .low-percent {
+  background: #fbb7b7;
+  color: red;
+}
+
+/* .insight-graph-container {
+  padding: 10px;
+  background: lightcyan;
+} */
+
+/* .loss{
+    background: #fbb7b7;
+} */
+
+.total-sales {
+  height: 19rem;
+}
+
+.sales-graph-container {
+  margin: 0 auto;
+  padding: 0 0.5rem;
+}
+
+.head h4 {
+  height: 1.6rem;
+  font-size: 1.2rem;
+}
+
+/* .content{
+    padding: 1rem;
+} */
+
+.sales-distribution {
+  height: 19rem;
+}
+
+.sales-distribution .distibution-graph-container {
+  /* border: 1px solid black; */
+  margin: auto;
+  height: 250px;
+  width: 250px;
+}
+
+.recent-orders {
+  height: 13.5rem;
+}
+
+.table-container {
+  /* margin-left: 0.5rem; */
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.order-table {
+  width: 97%;
+  border-collapse: collapse;
+  border-radius: 7px 7px 0 0;
+  overflow: hidden;
+}
+
+.order-table thead tr{
+  background-color: rgb(126, 166, 240);
+  color: white;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+}
+
+.order-table th,
+.order-table td{
+  padding: 6px 5px;
+}
+
+.order-table tbody tr{
+  border-bottom: 1px solid #dddddd;
+  font-size: 0.9rem;
+}
+
+.order-table td img{
+  height: 1.8rem;
+  width: 1.8rem;
+  margin-right: 0.5rem;
+}
+
+.order-table td p{
+  margin-bottom: 0px;
+  width: 60%;
+  text-align: center;
+  border-radius: 1rem;
+  color: grey;
+}
+
+.order-table tbody tr:nth-of-type(even){
+  background-color: #f3f3f3;
+}
+
+.order-table tbody tr:last-of-type{
+  border-bottom: 2px solid rgb(126, 166, 240);
+}
+
+.order-table tbody tr td:nth-child(3){
+  font-weight: 500;
+}
+
+.order-table tbody tr td:nth-child(4) {
+  font-weight: 500;
+}
+
+.shipped{
+  background: #fff0c2;
+}
+
+.delivered{
+  background: #adf3de;
+}
+
+/* .order-table tr td {
+  font-size: 0.9rem;
+} */
+
+/* table.order-table thead tr td {
+  font-weight: bold;
+} */
+
+/* .order-table tbody tr td {
+  border-bottom: 1px solid rgb(211, 210, 210);
+} */
+
+/* .order-table tr td:nth-child(4) {
+  padding-left: 1rem;
+} */
+
+.customers {
+  height: 13.5rem;
+}
