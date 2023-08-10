@@ -472,6 +472,24 @@ function switchPage(page_id) {
   app.getObject("chart6", "BqZP");
   app.getObject("chart7", "PyQXKt");
   app.getObject("chart8", "WJYuPN");
+
+  app.createGenericObject({
+    kpi1: {
+      qStringExpression: "Sum([Sales Margin Amount])/Sum([Sales Amount])"
+    },
+    kpi2: {
+      qStringExpression: "${total_accounts}"
+    },
+    kpi3:{
+      qStringExpression: "  ${TYvsLYSales}"
+    }
+  },
+  (res)=>{
+    console.log("res", res);
+    $("#kpi1 h2").text(Math.trunc(res.kpi1 * 100) + '%');
+    $("#kpi2 h2").text(Math.trunc(res.kpi2 * 100) + '%');
+    $("#kpi3 h2").text(Math.trunc(res.kpi3 * 100) + '%');
+  })
   });
 
   console.log("pageID",page_id);
